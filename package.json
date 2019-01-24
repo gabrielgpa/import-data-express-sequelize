@@ -1,0 +1,29 @@
+{
+  "name": "import",
+  "version": "1.0.0",
+  "description": "Simple api to import data from csv",
+  "main": "server.js",
+  "dependencies": {
+    "async": "^2.6.1",
+    "csv-parse": "^2.5.0",
+    "encoding": "^0.1.12",
+    "express": "^4.16.4",
+    "moment": "^2.24.0",
+    "mysql2": "^1.6.4",
+    "sequelize": "^4.42.0",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node build/server.js",
+    "build": "babel server.js --out-dir build",
+    "dev": "babel-watch server.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-watch": "^2.0.8"
+  },
+  "author": "Gabriel Araújo <gabrielaraujogpa@gmail.com>",
+  "license": "MIT"
+}
